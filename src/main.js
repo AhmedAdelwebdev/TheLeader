@@ -65,7 +65,7 @@ $(function Footer() {
         </div>
       </div>
       <!-- Contact Sections -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
         <!-- Abdul Rahman Contact Section -->
         <div class="text-center border-t border-gray-700 py-6">
           <h3 class="text-2xl font-semibold mb-4">تواصل مع عبد الرحمن</h3>
