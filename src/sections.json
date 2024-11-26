@@ -1,0 +1,49 @@
+{ 
+  "data": [
+    {
+      "category": "تصميم اعلانات",
+      "items": [
+        { "srcImg": "ads_1.jpg", "title": "أعلن عن منتجك بأناقة" },
+        { "srcImg": "ads_2.jpg", "title": "تصميمات إبداعية تلفت الانتباه" },
+        { "srcImg": "ads_3.jpg", "title": "حلول تسويقية مبتكرة" },
+        { "srcImg": "ads_4.jpg", "title": "أعلن بأسلوب عصري ومميز" },
+        { "srcImg": "ads_5.jpg", "title": "إعلانات تفوق توقعاتك" },
+        { "srcImg": "ads_6.jpg", "title": "تصميمات تجذب العملاء فورًا" }
+      ]
+    },
+    {
+      "category": "تصميم لوجوهات",
+      "items": [
+        { "srcImg": "logos_1.jpg", "title": "لوجوهات تعكس شخصيتك التجارية" },
+        { "srcImg": "logos_2.jpg", "title": "ابتكر هوية بصرية قوية" },
+        { "srcImg": "logos_3.jpg", "title": "لوجوهات تجمع بين الفن والابتكار" },
+        { "srcImg": "logos_4.jpg", "title": "أضف بصمة فريدة لعلامتك" }
+      ]
+    },
+    {
+      "category": "تصميم كروت دعوة",
+      "items": [ 
+        { "srcImg": "invites_2.jpg", "title": "اجعل دعوتك تنبض بالتميز" },
+        { "srcImg": "invites_1.jpg", "title": "صمم دعواتك بطريقة مميزة وأنيقة" },
+        { "srcImg": "invites_3.jpg", "title": "أفضل كروت دعوة لمناسباتك الخاصة" }
+      ]},  
+    {
+      "category": "تصميم كروت إعلانية",
+      "items": [
+        { "srcImg": "cards_1.jpg", "title": "تصميمات كروت تعكس هويتك" },
+        { "srcImg": "cards_2.jpg", "title": "كروت إعلانية جذابة ومميزة" },
+        { "srcImg": "cards_3.jpg", "title": "تميز مع كروت ذات تصميم عصري" },
+        { "srcImg": "cards_4.jpg", "title": "كروت تترك انطباعًا قويًا" },
+        { "srcImg": "cards_5.jpg", "title": "تصميم كروت إبداعية لعلامتك" },
+        { "srcImg": "cards_6.jpg", "title": "كروت تسويقية تناسب كل الأذواق" }
+      ]
+    }, 
+    {
+      "category": "تصميم إعلانات وسائل التواصل",
+      "items": [
+        { "srcImg": "social_ads_1.jpg", "title": "تصميمات تُحدث ضجة على وسائل التواصل" },
+        { "srcImg": "social_ads_2.jpg", "title": "أعلن عن منتجاتك بإبداع رقمي" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+  <title>The Leader</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="تصميم إعلانات ولوجوهات احترافية لتعزيز علامتك التجارية.">
+  <meta name="keywords" content="تصميم, إعلانات, لوجوهات, تسويق">
+  <meta property="og:image" content="https://ahmedadelwebdev.github.io/TheLeader/src/imgs/logo.jpg">
+  <link rel="icon" type="image/x-icon" href="src/imgs/logo.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="src/style.css">
+</head> 
+
+<body class="font-sans *:select-none transition"> 
+  
+  <main class="overflow-auto">
+    <!-- Hero Section --> 
+    <section class="relative text-white bg-blue-500 flex flex-col justify-center min-h-[82vh]">  
+      <h1 class="text-4xl tracking-wide sm:text-5xl mx-auto text-center font-bold py-6 lg:pb-10">The Leader</h1>
+      <!-- Hero Section --> 
+      <div class="hero p-4 pt-0 pb-16 md:pb-24">
+        <p class="flex items-center gap-10"> 
+        <h1 class="text-center text-xl sm:text-3xl block">✦ صمم فكرتك و شارك العالم ✦</h1>
+        <h2 class="text-center text-xl sm:text-3xl mx-auto my-4 sm:my-8 md:max-w-[90vw] leading-relaxed">إعلانات احترافية و لوجوهات فريدة تُظهر قوة علامتك التجارية وتحقق التأثير الذي يميزك في السوق.</h2>
+        <a href="#videoStart" onclick="document.getElementById('video').play()" class="block bg-[#FFF100] text-black hover:bg-green-500 hover:text-white duration-300 w-fit px-14 mt-14 mx-auto text-center text-2xl sm:text-3xl text-center font-bold p-2 m-5 rounded-xl rounded-tl-3xl rounded-br-3xl shadow-md">ابدأ الآن</a>
+        </p>
+      </div> 
+      <!-- Waves -->
+      <svg class="absolute bottom-0 w-full h-[8vh] min-h-[50px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use class="wave-animation" xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+          <use class="wave-animation" xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+          <use class="wave-animation" xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+      </svg>
+    </section>
+
+    <!-- Vidoe Section -->
+    <section id="videoStart" class="p-4 pt-14">
+      <label class="text-2xl md:text-3xl text-blue-500 my-7 block">تعرف على خدماتنا المميزة </label>
+      <video id="video" src="src/video/the_leader.mp4" poster="src/imgs/logo.jpg" class="responsive-video w-full shadow-md shadow-[#0002]" controls loop controlsList="nodownload"></video>
+    </section>
+    
+    <!-- Services Sections -->
+    <section class="p-4">
+      <label class="text-2xl md:text-3xl text-blue-500">اكتشاف خدمتنا</label>
+      <ul id="Serveces" class="flex flex-wrap gap-6 my-6 *:flex *:flex-col *:items-start *:grow *:sm:w-[40vw] *:h-auto *:p-7 *:rounded-3xl *:border-2 *:border-gray-100 *:transition-transform *:transform *:duration-300 *:h-64"></ul>
+    </section>
+
+    <!-- All Sections Designs -->
+    <section id="AllSections" class="flex flex-col gap-8 p-4"></section>
+
+  </main>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" onerror="location.reload()"></script>
+  <script src="https://cdn.tailwindcss.com" onerror="location.reload()"></script>
+  <script src="src/main.js" onerror="location.reload()"></script> 
+</body> 
+
+</html> 
