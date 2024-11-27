@@ -219,7 +219,7 @@ async function fetchWithRetry(url, maxRetries = 3) {
 async function displaySections() {
   try {
     let isHomePage = $('title').text().includes('The Leader');
-    let imgNum = ($(window).width() <= 600 ? 2 : Math.min(4, Math.floor($(window).width() / 260)));
+    let imgNum = ($(window).width() <= 600 ? 2 : Math.min(4, Math.floor($(window).width() / 250))); 
 
     let data = await fetchWithRetry('src/sections.json', 3);
     let Sections = data.data;
